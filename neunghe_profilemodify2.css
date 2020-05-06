@@ -10,7 +10,7 @@ fieldset { /*전체 사각형*/
 }
 
 .profile{ /*프로필 수정 글씨*/
-    float: left; 
+    float: left;
     margin-right: 19em;
     margin-top: 16px;
     margin-left: 22px;
