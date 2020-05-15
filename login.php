@@ -13,14 +13,14 @@ include("./database.php");
         
         <div class="inner_login">
             <div class="login_tistory">
-            <link rel="stylesheet" href="./login.css">
+            <link rel="stylesheet" href="./login.css?ver=1">
                     <fieldset>
                     <legend class="screen_out">로그인 정보 입력폼</legend>
-                    <h1><center>Login</center></h1>
-                    <center>반갑습니다!</center>
+                    <div class="text_center.title">Login</div>
+                    <div class="text_center.login">반갑습니다!</div>
                     <div class="box_login">
                         <div class="inp_text">
-                        <label for="loginId" class="screen_out"><image src="img/login_id.png">아이디</image></label>
+                        <label for="loginId" class="screen_out"><img src="img/login_id.png">아이디</label>
                         <input type="email" id="loginId" name="loginId" placeholder="ID" >
                         </div>
                         <div class="inp_text">
@@ -49,7 +49,7 @@ include("./database.php");
                 </form>
             </div>
             <br>
-            <center>신규회원 이신가요? <a href="register.php"><font color="#AFECD2">회원가입</font></a> </center>
+            <div class="text_center.register1">신규회원 이신가요?</div><div class="text_center.register2"><a href="register.php">회원가입</a></div>
         </div>
     </body>
 </html>
