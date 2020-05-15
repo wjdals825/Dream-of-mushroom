@@ -1,0 +1,184 @@
+fieldset { /*전체 사각형*/
+    width: 37.5em;
+    height: 35em;
+    border: 1.5px solid #e2f2fd;
+    border-radius: .5em;
+    box-shadow: 0 2px 8px rgba(100, 100, 100, 0.384); 
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+
+.profile{ /*프로필 수정 글씨*/
+    float: left;
+    margin-right: 19em;
+    margin-top: 16px;
+    margin-left: 22px;
+}
+
+#groupout { /*회원탈퇴 버튼*/
+    margin-right: 22px;
+    border: none;
+    background-color: #F9909F;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 12px/100% Arial, Helvetica, sans-serif;
+    padding: .8em 1.2em .64em;
+    border-radius: .5em;
+    box-shadow: 2px 2px 2px #ced4da;
+    margin-top: 14px;
+}
+#close { /*닫기 버튼*/
+    margin-left: -10px;
+    border: 1px solid #e2f2fd;
+    background-color: rgba(0,0,0,0);
+    color: #F9909F;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 12px/100% Arial, Helvetica, sans-serif;
+    padding: .7em 2em .62em;
+    border-radius: .5em;
+    box-shadow: 2px 2px 2px #dee2e6;
+    margin-top: 14px;
+}
+
+hr { /*밑선*/
+    border: 1px solid #e2f2fd;
+    margin-top: 15px;
+}
+
+img { /*중간 삽입 이미지*/
+    border: 3px solid white;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 70%;
+    box-shadow: 0 2px 8px rgba(100, 100, 100, 0.384); 
+    margin-top: 40px;
+}
+
+.idw{ /*아이디 글씨*/
+    float: left;
+    margin-top: 0px;
+    margin-right: 21em;
+    margin-left: 28px;
+    font-size: 10pt;
+}
+
+.emailw{ /*이메일 글씨*/
+    font-size: 10pt;
+    margin-top: 20px;
+}
+
+.idspace input[type="text"] { /*아이디입력*/
+    float: left;
+    width: 220px; 
+    height: 35px; 
+    line-height : normal; 
+    font-family: inherit; 
+    border: 1px solid #e2f2fd; 
+    border-radius: 8px; 
+    margin-left: 28px;
+    margin-top: 8px;
+    outline-style: none; 
+    -webkit-appearance: none; 
+    -moz-appearance: none; appearance: none; 
+    box-shadow: 1px 1px 1px #dee2e6;
+    color: #7764e4;
+}
+
+.emailspace input[type="text"] { /*이메일 입력*/
+    width: 220px; 
+    height: 35px; 
+    line-height : normal; 
+    font-family: inherit; 
+    border: 1px solid #e2f2fd; 
+    border-radius: 8px; 
+    margin-top: 8px;
+    margin-left: 100px;
+    outline-style: none; 
+    -webkit-appearance: none; 
+    -moz-appearance: none; appearance: none; 
+    box-shadow: 1px 1px 1px #dee2e6;
+    color: #2DCE98;
+}
+
+.pwtxt{ /*비밀번호 글씨*/
+    float: left;
+    margin-top: 0px;
+    margin-right: 20em;
+    margin-left: 28px;
+    font-size: 10pt;
+}
+
+.pwtxtchk{ /*비밀번호 재입력 글씨*/
+    font-size: 10pt;
+    margin-top: 20px;
+}
+
+.pw input[type="text"]{ /*비밀번호입력*/
+    float: left;
+    width: 220px; 
+    height: 35px; 
+    background-color: #f7fafc;
+    line-height : normal; 
+    font-family: inherit; 
+    border: none; 
+    border-radius: 8px; 
+    margin-left: 28px;
+    margin-top: 8px;
+    outline-style: none; 
+    -webkit-appearance: none; 
+    -moz-appearance: none; appearance: none; 
+    box-shadow: 1px 2px 1px #dddbdb;
+}
+
+.pwcheck input[type="text"]{ /*비밀번호재입력*/
+    width: 220px; 
+    height: 35px; 
+    line-height : normal; 
+    font-family: inherit; 
+    background-color: #f7fafc;
+    border: none;
+    border-radius: 8px; 
+    margin-top: 8px;
+    margin-left: 100px;
+    outline-style: none; 
+    -webkit-appearance: none; 
+    -moz-appearance: none; appearance: none; 
+    box-shadow: 1px 2px 1px #dddbdb;
+}
+
+.oneintro{ /*한줄소개 글씨*/
+    margin-top: 25px;
+    margin-left: 30px;
+    font-size: 10pt;
+}
+
+.oneintrotxt input[type="text"]{ /*한줄소개 창*/
+    width: 540px; 
+    height: 70px; 
+    line-height : normal; 
+    font-family: inherit; 
+    font-size: 10px;
+    background-color: #f7fafc;
+    border: none;
+    border-radius: 8px; 
+    margin-top: 8px;
+    margin-left: 30px;
+    outline-style: none; 
+    -webkit-appearance: none; 
+    -moz-appearance: none; appearance: none; 
+    box-shadow: 1px 2px 1px #dddbdb;
+}
+
+input::placeholder {
+    color: black;
+}
