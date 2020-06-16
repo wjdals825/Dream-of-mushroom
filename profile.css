@@ -1,0 +1,138 @@
+/* body{
+    background-image:url('colorful_back.jpeg');
+    background-repeat:no-repeat;
+} */
+/*.backimg{
+    border : none;
+    width: 100%;
+    height:0px;
+    background-image:url("img/colorful_back.jpeg");
+    background-repeat:no-repeat;
+    background-attachment: scroll;
+}*/
+
+img { /*중간 삽입 이미지*/
+    border: 3px solid white;
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 70%;
+    box-shadow: 0 2px 8px rgba(100, 100, 100, 0.384); 
+    margin-top: 100px;
+}
+
+.name {
+    margin-top: 18px;
+    margin-left: 730px;
+    font-size: 13pt;
+    color:#172B4D;
+}
+
+.email {
+    margin-left: 680px;
+    font-size: 11pt;
+    color:#172B4D;
+}
+
+#modify { /*닫기 버튼*/
+    margin-left: -10px;
+    border: 1px solid #2DCE98;
+    background-color: rgba(0,0,0,0);
+    color: #2DCE98;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 12px/100% Arial, Helvetica, sans-serif;
+    padding: .8em .5em ;
+    border-radius: .5em;
+    box-shadow: 2px 2px 2px #dee2e6;
+    margin-top: 14px;
+}
+
+#profileedit { /*프로필 편집 버튼*/
+    margin-right: 22px;
+    border: none;
+    background-color: #2DCE98;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 12px/100% Arial, Helvetica, sans-serif;
+    padding: .9em 1em ;
+    border-radius: .5em;
+    box-shadow: 2px 2px 2px #ced4da;
+    margin-top: 14px;
+}
+
+#botbtn_group{
+    margin-left: 665px;
+    margin-top: 5px;
+}
+
+hr { /*밑선*/
+    border: 0.4px solid #e2f2fd;
+    margin-top: 28px;
+}
+
+#word {
+    
+    color: #172B4D;
+    font: 15px;
+    font-weight: bold;
+    margin-left: 570px;
+    margin-top: 30px;
+}
+
+#graphnum{
+    float: left;
+    color: #6e6e6e;
+    margin-left: 930px;
+}
+.graph { 
+    margin-left: 570px;
+    position: relative; /* IE is dumb */
+    width: 400px; 
+    border: none;
+    background-color: #f1f1f1;
+    padding: 0px; 
+    /* font-size:11px;
+    font-family:tahoma; */
+    margin-bottom:3px;
+}
+.graph .bar { 
+    display: block;
+    position: relative;
+    background: #F1ED92; 
+    text-align: center; 
+    color: #333; 
+    height: .3em; 
+    line-height: 2em;            
+}
+
+.graph .bar2 { 
+    display: block;
+    position: relative;
+    background: #AFECD2; 
+    text-align: center; 
+    color: #333; 
+    height: .3em; 
+    line-height: 2em;            
+}
+.graph .bar span { position: absolute; left: 1em; }
+
+#logdate{
+    margin-left: 740px;
+    font-size: 9pt;
+    color:#172B4D;
+}
+
+#loginfo{
+    margin-top:3px;
+    margin-left: 650px;
+    font-size: 9pt;
+    color:#172B4D;
+}
