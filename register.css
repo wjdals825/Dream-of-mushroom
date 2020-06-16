@@ -25,6 +25,31 @@ input {
     border-color: initial;
     border-image: initial;
 }
+
+.text_center.title{
+    text-align: center;
+    color: black;
+    font-size:40px;
+}
+
+.text_center.register{
+    text-align: center;
+    color: black;
+    font-size:20px;
+}
+
+.text_center.login1{
+    text-align: center;
+    color: black;
+    font-size:10px;
+}
+
+.text_center.login2{
+    text-align: center;
+    color: #AFECD2;
+    font-size:10px;
+}
+
 .inner_register {
     position: absolute;
     left: 50%;

@@ -31,13 +31,13 @@ else
         <title>능희의 꿈_회원가입</title>
         <div class="inner_register">
             <div class="register_tistory">
-                <link rel="stylesheet" href="./register.css">
+                <link rel="stylesheet" href="./register.css?ver=1">
     </head>
     <body>
     <fieldset>
         <legend class="screen_out">회원가입 정보 입력폼</legend>
-        <h1><center>회원가입</center></h1>
-            <center>똑똑한 일정관리의 시작</center>
+        <div class="text_center.register">회원가입</div>
+            <div class="text_center.title">똑똑한 일정관리의 시작</div>
         <div class="box_register">
             <div class="inp_text">
             <label for="registerId" class="screen_out">아이디</label>
@@ -68,6 +68,6 @@ else
     </fieldset>
 </div>
     <br>
-        <center>ID가 이미 있으신가요? <a href="./login.php"><font color="#AFECD2">로그인</font></a> </center>
+        <div class="text_center.login1">ID가 이미 있으신가요?</div><div class="text_center.login2"><a href="./login.php">로그인</a>
     </body>
 </html>
